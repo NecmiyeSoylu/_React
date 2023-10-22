@@ -8,8 +8,17 @@ class App extends Component {
     return (
       <div className='container'>
         <h1>App Component</h1>
-        <UserApp></UserApp>
-        <User></User>
+        <UserApp title='bu değer'></UserApp>
+        <User 
+          name='Necmiye'
+          salary='10000'
+          dep='Ceng'
+        ></User>
+        <User
+          name='Hasan'
+          salary='5000'
+          dep='Ceng'  
+        />
       </div>
     );
   }
