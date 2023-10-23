@@ -18,4 +18,4 @@ class User extends Component { //hocam genel olarak yapıya bakarsak her compone
     );
   }
 }
-export default User;//! bu export etmek ne demek
+export default User;
