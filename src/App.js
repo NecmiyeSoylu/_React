@@ -12,11 +12,9 @@ class App extends Component {
         <User 
           name='Necmiye'
           salary='10000'
-          dep='Ceng'
         ></User>
         <User
           name='Hasan'
-          salary='5000'
           dep='Ceng'  
         />
       </div>
