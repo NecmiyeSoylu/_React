@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className='container'>
         <h1>App Component</h1>
-        <UserApp title='Employee List'></UserApp>
+        <UserApp header='Employee List'></UserApp>
         <User 
           name='Necmiye'
           salary='10000'
