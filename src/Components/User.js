@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+
 import PropTypes from 'prop-types' //hocam prop type'ları ekledik
 
 class User extends Component { //hocam genel olarak yapıya bakarsak her component oluşturduğumuzda oluşturulan sınıfın 
@@ -13,13 +15,19 @@ class User extends Component { //hocam genel olarak yapıya bakarsak her compone
     //Destructing
     const {name,dep,salary}=this.props;
 
-    return (
-      <div> 
-        <ul>
-          <li>Name: {name}</li>
-          <li>Dep: {dep} </li>
-          <li>Salary: {salary}$</li>
-        </ul>
+    return ( 
+      <div className='col-md-8 '>
+        <div className='card'>
+          <div className='card-header d-flex justify-content-between'>
+            <h4 className='d-inline'>{name}<i className="fa fa-coffee" aria-hidden="true"></i></h4>
+          </div>
+        
+
+            <div className='card-body'>
+            <p className='card-text'>{dep}</p>
+            <p className='card-text'>{salary}</p>
+          </div>
+        </div>
       </div>
     );
   }

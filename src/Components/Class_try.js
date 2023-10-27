@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+
+
 class Class_try extends Component {
     static defaultProps={
         dep:"unknown",
@@ -10,9 +12,13 @@ class Class_try extends Component {
     render() {
         const {std_num,dep,name,surname}=this.props;
         return (
-        <div>
-            <h4>{std_num}</h4>
-        </div>
+            <div className='col-md-8 '>
+            <div className='card'>
+              <div className='card-header d-flex justify-content-between'>
+              <h4 className='d-inline'>{std_num}<i className="fa fa-coffee" aria-hidden="true"></i></h4>
+              </div>
+            </div>
+          </div>
         );
     }
 }
