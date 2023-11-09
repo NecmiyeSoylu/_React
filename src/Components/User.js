@@ -19,7 +19,7 @@ class User extends Component { //hocam genel olarak yapıya bakarsak her compone
       <div className='col-md-8 '>
         <div className='card'>
           <div className='card-header d-flex justify-content-between'>
-            <h4 className='d-inline'>{name}<i className="fa fa-coffee" aria-hidden="true"></i></h4>
+            <h4 className='d-inline '>{name}<i className="fa fa-coffee" aria-hidden="true"></i></h4>
           </div>
         
 
